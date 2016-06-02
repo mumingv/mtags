@@ -78,7 +78,9 @@ this
  * 函数列表
  */
 
-数组操作
+// 数组操作
+// http://php.net/manual/zh/ref.array.php
+
 array_change_key_case
 array_chunk
 array_column
