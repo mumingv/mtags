@@ -1,0 +1,29 @@
+
+/**
+ * 待分类 
+ */
+include
+using
+namespace
+std
+endl
+main
+oct
+dec
+hex
+
+/**
+ * 保留字列表
+ * http://php.net/manual/zh/reserved.php
+ */
+
+int
+char
+float
+double
+void
+bool
+
+
+
+
