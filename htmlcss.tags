@@ -12,6 +12,105 @@ monospace: Courier, Courier New
 cursive: Comic Sans MS, Monotype Corsiva
 fantasy: Impact, Haettenschweiler
 
+// 字体选用
+font-family
+
+// 字体大小
+font-size
+px
+em
+pt
+
+// 选用更多字体
+@font-face
+font-family
+src
+format
+
+// 字体格式
+eot
+woff
+ttf/otf
+svg
+
+// 粗体
+font-weight
+normal
+bold
+
+// 斜体
+font-style
+normal
+italic
+oblique
+
+// 大小写
+text-transform
+uppercase
+lowercase
+capitalize
+
+// 下划线和删除线
+text-decoration
+none
+underline
+overline  // 上划线
+line-through
+blink  // 字体闪烁
+
+// 行间距 (= 字号 + 行间距)
+line-height
+
+// 字母间距和单词间距
+letter-spacing
+word-spacing
+
+// 对齐方式(水平对齐)
+text-align
+left
+right
+center
+justify  // 两端对齐
+
+// 对齐方式(垂直对齐)
+vertical-align
+baseline  // 比text-bottom更底部一点
+sub
+super
+top
+text-top  // 顶部对齐
+middle
+bottom
+text-bottom  // 底部对齐
+
+// 文本缩进
+text-indent
+
+// CSS3投影
+text-shadow
+
+// 首字母或首行文本
+:first-letter  // 伪元素
+:first-line  // 伪元素
+
+// 链接样式
+:link  // 伪类, 未访问过的链接
+:visited  // 伪类，已访问过的链接
+
+// 响应用户
+:hover  // 伪类，鼠标悬停
+:active  // 伪类，按钮或链接被点击
+:focus  // 伪类，元素拥有焦点时，比如：文本框内部点击鼠标之后
+
+
+
+
+
+
+
+
+
+
 
 
 
