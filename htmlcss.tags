@@ -103,16 +103,29 @@ text-shadow
 :focus  // 伪类，元素拥有焦点时，比如：文本框内部点击鼠标之后
 
 
+/* 第13章 盒子 */
 
+// 盒子的大小
+width
+height
 
+// 宽度限制
+max-width
+min-width
 
+// 高度限制
+max-height
+min-height
 
+// 内容溢出
+overflow
+hidden
+scroll
 
-
-
-
-
-
+// 边框、外边距、内边距
+border
+margin
+padding
 
 
 
