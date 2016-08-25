@@ -1,0 +1,19 @@
+
+/**
+ * HTML&CSS 设计与构建网站
+ */
+
+/* 第12章 文本 */
+
+// 字体(衬线字体、无衬线字体、等宽字体、草书字体、虚幻字体)
+serif: Georgia, Times, Times New Roman
+sans-serif: Arial, Verdana, Helvetica
+monospace: Courier, Courier New
+cursive: Comic Sans MS, Monotype Corsiva
+fantasy: Impact, Haettenschweiler
+
+
+
+
+
+
