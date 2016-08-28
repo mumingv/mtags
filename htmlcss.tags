@@ -1,7 +1,33 @@
-
 /**
  * HTML&CSS 设计与构建网站
  */
+
+/* 第2章 */
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<p>
+<b>
+<i>
+<sup>  // 上标
+<sub>  // 下标
+<br />  // 换行
+<hr />  // 水平线
+<strong>  // 加粗, 类似<b>
+<em>  // 强调, 类似<em>
+<blockquote>  // 引用
+<q>  // 引用，IE不支持，一般不使用
+<abbr>
+<cite>  // 引文
+<dfn>  // 定义
+<address>  // 地址、邮箱
+<ins>  // 内容修改：插入
+<del>  // 内容修改：删除
+<s>  // 删除样式，用于降价商品的原价格显示
+
 
 /* 第12章 文本 */
 
@@ -127,5 +153,89 @@ border
 margin
 padding
 
+// 边框宽度
+boder-width
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+thin
+midium
+thick
+
+// 边框样式
+border-style
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style
+solid  // 实线
+dotted  // 方形点
+dashed  // 虚线
+double  // 两条实线
+groove  // 雕入页面的效果
+ridge  // 页面上凸起的效果
+inset  // 嵌入页面的效果
+outset  // 突出屏幕的效果
+hidden/none  // 不显示边框
+
+// 边框颜色
+border-color
+border-top-color
+border-right-color
+border-bottom-color
+border-left-color
+
+// 快捷方式
+border
+
+// 内边距
+padding
+pddding-top
+pddding-right
+pddding-bottom
+pddding-left
+
+// 外边距
+margin
+margin-top
+margin-right
+margin-bottom
+margin-left
+auto
+
+// 内容居中
+text-align
+center
+left
+right
+
+// 内联元素与块级元素的转换
+display
+inline  // 块级元素-->内联元素
+block  // 内联元素-->块级元素
+inline-block  // 块级元素，增加浮动特征
+none  // 不显示该元素(不占位置)
+
+// 盒子的影藏
+visibility
+hidden(占位置)
+visible
+
+// 边框图像
+border-image
+stretch  // 拉升图片
+repeat  // 重复图片
+round  // 重复图片，边界自适应
+
+// 盒子的投影
+box-shadow
+
+// 圆角 & 椭圆形
+border-radius
+border-top-right-radius
+border-bottom-right-radius
+border-bottom-left-radius
+border-top-left-radius
 
 
