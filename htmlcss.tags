@@ -88,6 +88,35 @@ pragma
 expires
 
 
+/* 第9章 */
+
+<video>
+src
+poster
+width
+height
+controls
+autoplay
+loop
+preload
+none
+auto
+metadata
+<source>
+src
+type
+codecs
+<audio>
+src
+controls
+autoplay
+preload
+loop
+<source>
+src
+type
+
+
 /* 第12章 文本 */
 
 // 字体(衬线字体、无衬线字体、等宽字体、草书字体、虚幻字体)
