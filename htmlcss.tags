@@ -327,3 +327,88 @@ border-bottom-left-radius
 border-top-left-radius
 
 
+/* 第14章 列表、表格和表单 */
+
+// 项目符号样式
+list-style-type
+
+// 无序列表
+none
+disc
+circle
+square
+
+// 有序列表
+decimal
+decimal-leading-zero
+lower-alpha
+upper-alpha
+lower-roman
+upper-roman
+
+// 项目图像
+list-style-image
+url
+
+// 标记的定位
+list-style-position
+outside
+inside
+
+// 列表快捷方式
+list-style
+
+// 表格属性
+width
+padding
+text-transform
+letter-spacing
+font-size
+border-top
+border-bottom
+text-align
+background-color
+:hover
+
+// 空单元格的边框
+empty-cells
+show
+hide
+inherit
+
+// 单元格之间的空隙
+border-spacing
+border-collapse
+collapse
+separate
+
+// 定义单行文本框样式
+font-size
+color
+background-color
+border
+border-radius
+:focus
+:hover
+background-image
+
+// 定义提交按钮样式
+color
+text-shadow
+border-bottom
+background-color
+:hover
+
+// 光标样式
+cursor
+auto
+crosshair
+default
+pointer
+move
+text
+wait
+help
+url
+
+
