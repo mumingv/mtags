@@ -412,3 +412,36 @@ help
 url
 
 
+/* 第15章 布局 */
+
+// 各种定位
+position
+static  // 普通流
+relative  // 相对定位
+absolute  // 绝对定位
+fixed  // 固定定位
+
+// 重叠元素
+z-index
+
+// 浮动元素
+float
+left
+right
+
+// 清除浮动
+clear
+left
+right
+both
+none
+
+// 利用浮动创建多列式布局
+width
+float
+margin
+
+// 多个样式表
+@import
+link
+
