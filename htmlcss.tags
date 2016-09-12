@@ -417,7 +417,7 @@ url
 // 各种定位
 position
 static  // 普通流
-relative  // 相对定位
+relative  // 相对定位: top, bottom, left, right
 absolute  // 绝对定位
 fixed  // 固定定位
 
@@ -444,4 +444,73 @@ margin
 // 多个样式表
 @import
 link
+
+// 12列网格布局
+container_12  // 创建12列宽度的容器
+grid_1  // 创建1列宽度的网格
+grid_2  // 创建2列宽度的网格
+grid_3
+grid_4
+grid_5
+grid_6
+grid_7
+grid_8
+grid_9
+grid_10
+grid_11
+grid_12  // 创建12列宽度的网格
+push_1  // 相对定位, 向右移动1列宽度的网格
+push_2  // 相对定位，向右移动2列宽度的网格
+push_3
+push_4
+push_4
+push_5
+push_6
+push_7
+push_8
+push_9
+push_10
+push_11  // 相对定位，向右移动12列宽度的网格
+pull_1  // 相对定位，向左移动1列宽度的网格
+pull_2
+pull_3
+pull_4
+pull_5
+pull_6
+pull_7
+pull_8
+pull_9
+pull_10
+pull_11
+prefix_1  // 左填充
+prefix_2
+prefix_3
+prefix_4
+prefix_5
+prefix_6
+prefix_7
+prefix_8
+prefix_9
+prefix_10
+prefix_11
+suffix_1  // 右填充
+suffix_2
+suffix_3
+suffix_4
+suffix_5
+suffix_6
+suffix_7
+suffix_8
+suffix_9
+suffix_10
+suffix_11
+alpha  // 左边距设置为0
+omega  // 右边距设置为0
+clear
+clearfix
+
+
+
+
+
 
