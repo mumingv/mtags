@@ -510,7 +510,38 @@ clear
 clearfix
 
 
+/* 第16章 图像 */
 
+// 背景图像
+background-image
 
+// 重复图像
+background-repeat
+repeat
+repeat-x
+repeat-y
+no-repeat
+background-attachment
+fixed
+scroll
 
+// 背景图像定位
+background-position
+left top
+left center
+left bottom
+center top
+center center
+center bottom
+right top
+right center
+right bottom
+
+// 简写
+background
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
 
