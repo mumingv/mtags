@@ -545,3 +545,38 @@ background-repeat
 background-attachment
 background-position
 
+
+/* 第17章 HTML5布局*/
+
+// 页眉和页脚
+<header>
+<footer>
+
+// 导航
+<nav>
+
+// 文章
+<article>
+
+// 附属信息
+<aside>
+
+// 部分
+<section>
+
+// 标题组
+<hgroup>
+
+// 图形
+<figure>
+<figcaption>
+
+// 分节元素
+<div>
+
+
+
+
+
+
+
