@@ -1,0 +1,15 @@
+
+
+
+/* 对象：Date */
+
+// 属性
+
+
+// 方法
+getHours()
+getMinutes()
+getSeconds()
+
+
+
