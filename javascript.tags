@@ -1,5 +1,5 @@
 
-
+/************************************** JavaScript 对象 ************************************/
 
 /* 对象：Date */
 
@@ -10,6 +10,46 @@
 getHours()
 getMinutes()
 getSeconds()
+
+
+/************************************** Browser 对象 ************************************/
+
+
+/************************************** HTML DOM 对象 ************************************/
+
+/* 对象：Document */
+
+// 集合
+all[]
+anchors[]
+applets
+forms[]
+images[]
+links[]
+
+// 属性
+body    
+cookie
+domain
+lastModified
+referrer
+title
+URL
+
+// 方法
+close()
+getElementById()
+getElementsByName()
+getElementsByTagName()
+open()
+write()
+writeln()
+
+
+
+/************************************** HTML 对象 ************************************/
+
+
 
 
 
