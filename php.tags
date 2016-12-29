@@ -404,4 +404,47 @@ vsprintf
 wordwrap
 
 
+/**
+ * 进程控制扩展
+ */
+
+// 程序执行 
+// http://php.net/manual/zh/ref.exec.php
+
+escapeshellarg
+escapeshellcmd
+exec
+passthru
+proc_close
+proc_get_status
+proc_nice
+proc_open
+proc_terminate
+shell_exec
+system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
