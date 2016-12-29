@@ -132,7 +132,7 @@ __COMPILER_HALT_OFFSET__
 // 数组操作
 // http://php.net/manual/zh/ref.array.php
 
-array_change_key_case
+array_change_key_case   CASE_UPPER  CASE_LOWER 
 array_chunk
 array_column
 array_combine
