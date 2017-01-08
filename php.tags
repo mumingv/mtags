@@ -460,7 +460,27 @@ JSON_UNESCAPED_SLASHES
 JSON_UNESCAPED_UNICODE 
 
 
+/************************
+ * phpredis扩展
+ ***********************/
 
+/**
+ * 类和方法 
+ */
+
+// 类
+Redis
+RedisException
+
+// 常量
+Redis::REDIS_NOT_FOUND - Not found / other - 0
+Redis::REDIS_STRING - String - 1
+Redis::REDIS_SET - Set - 2
+Redis::REDIS_LIST - List - 3
+Redis::REDIS_ZSET - Sorted set - 4
+Redis::REDIS_HASH - Hash - 5
+
+// 方法
 
 
 
