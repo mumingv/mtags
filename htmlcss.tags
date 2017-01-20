@@ -1,4 +1,46 @@
 /**
+ * 所有CSS关键字汇总(http://www.runoob.com/css)
+ */
+
+/* CSS Border(边框) (http://www.runoob.com/css/css-border.html) */
+
+// 边框样式 (border-style)
+none
+dotted, dashed
+solid, double
+groove, ridge
+inset, outset
+
+// 边框宽度 (border-width) 
+px, em, pt, cm
+thick, medium, thin
+
+// 边框颜色 (border-color): 依赖边框样式
+red / ...
+rgb(255,0,0)
+#ff0000, #fff
+transparent
+
+// 边框-单独设置各边
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style
+
+// 边框-简写属性
+border: <width> <style> <color>
+
+// 总结：所有边框属性
+border border-style border-width border-color
+border-top border-top-style border-top-width border-top-color
+border-right border-right-style border-right-width border-right-color
+border-bottom border-bottom-style border-bottom-width border-bottom-color
+border-left border-left-style border-left-width border-left-color
+
+
+
+
+/**
  * HTML&CSS 设计与构建网站
  */
 
