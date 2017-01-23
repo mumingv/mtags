@@ -1,17 +1,62 @@
 # 根据参考手册整理
 # http://www.runoob.com/jsref/jsref-tutorial.html
 
-/************************************** 1. JavaScript 对象 ************************************/
+/************************************** 1. JavaScript 对象 *********************************/
 
-/* 对象：Date */
+/**
+ * Date 对象 
+ */
 
-// 属性
+/* 属性 */
 
-
-// 方法
+/* 方法 */
 getHours()
 getMinutes()
 getSeconds()
+
+
+/**
+ * String 对象
+ */
+
+/* 属性 */
+constructor
+length
+prototype
+
+/* 方法 */
+charAt()
+charCodeAt()
+concat()
+fromCharCode()
+indexOf()
+lastIndexOf()
+match()
+replace()
+search()
+slice()
+split()
+substr()
+substring()
+toLowerCase()
+toUpperCase()
+trim()
+valueOf()
+
+/* HTML 包装方法 */
+anchor()
+big()
+blink()
+bold()
+fixed()
+fontcolor()
+fontsize()
+italics()
+link()
+small()
+strike()
+sub()
+sup()
 
 
 /************************************** 2. Browser 对象 ************************************/
