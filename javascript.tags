@@ -10,9 +10,6 @@
 /* 属性 */
 
 /* 方法 */
-getHours()
-getMinutes()
-getSeconds()
 
 
 /**
@@ -57,6 +54,31 @@ small()
 strike()
 sub()
 sup()
+
+
+/**
+ * 全局
+ */
+
+/* 全局属性 */
+Infinity
+NaN
+undefined
+
+/* 全局函数 */
+decodeURI()
+decodeURIComponent()
+encodeURI()
+encodeURIComponent()
+escape()
+eval()
+isFinite()
+isNaN()
+Number()
+parseFloat()
+parseInt()
+String()
+unescape()
 
 
 /************************************** 2. Browser 对象 ************************************/
