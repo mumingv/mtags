@@ -1,5 +1,7 @@
+# 根据参考手册整理
+# http://www.runoob.com/jsref/jsref-tutorial.html
 
-/************************************** JavaScript 对象 ************************************/
+/************************************** 1. JavaScript 对象 ************************************/
 
 /* 对象：Date */
 
@@ -12,42 +14,156 @@ getMinutes()
 getSeconds()
 
 
-/************************************** Browser 对象 ************************************/
+/************************************** 2. Browser 对象 ************************************/
 
 
-/************************************** HTML DOM 对象 ************************************/
+/************************************** 3. DOM 对象 ************************************/
 
-/* 对象：Document */
+/**
+ * HTML DOM Document 对象
+ */
 
-// 集合
-all[]
-anchors[]
-applets
-forms[]
-images[]
-links[]
+/* 属性 */
+document.activeElement
+document.anchors
+document.applets
+document.baseURI
+document.body
+document.cookie
+document.doctype
+document.documentElement
+document.documentMode
+document.documentURI
+document.domain
+document.domConfig
+document.embeds
+document.forms
+document.images
+document.implementation
+document.inputEncoding
+document.lastModified
+document.links
+document.readyState
+document.referrer
+document.scripts
+document.strictErrorChecking
+document.title
+document.URL
 
-// 属性
-body    
-cookie
-domain
-lastModified
-referrer
-title
-URL
+/* 方法 */
+document.eddEventListener()
+document.adoptNode(node)
+document.close()
+document.createAttribute()
+document.createComment()
+document.createDocumentFragment()
+document.createElement()
+document.createTextNode()
+document. getElementsByClassName()
+document.getElementById()
+document.getElementsByName()
+document.getElementsByTagName()
+document.importNode()
+document.normalize()
+document.normalizeDocument()
+document.open()
+document.querySelector()
+document.querySelectorAll()
+document.removeEventListener()
+document.renameNode()
+document.write()
+document.writeln()
 
-// 方法
-close()
-getElementById()
-getElementsByName()
-getElementsByTagName()
-open()
-write()
-writeln()
+/**
+ * HTML DOM 元素对象
+ */
+
+/* 属性 */
+element.accessKey
+element.attributes
+element.childNodes
+element.classlist
+element.className
+element.clientHeight
+element.clientWidth
+element.contentEditable
+element.dir
+element.firstChild
+element.id
+element.innerHTML
+element.isContentEditable
+element.lang
+element.lastChild
+element.namespaceURI
+element.nextSibling
+element.nodeName
+element.nodeType
+element.nodeValue
+element.offsetHeight
+element.offsetWidth
+element.offsetLeft
+element.offsetParent
+element.offsetTop
+element.ownerDocument
+element.parentNode
+element.previousSibling
+element.scrollHeight
+element.scrollLeft
+element.scrollTop
+element.scrollWidth
+element.style
+element.tabIndex
+element.tagName
+element.textContent
+element.title
+nodelist.length
+
+/* 方法 */
+element.addEventListener()
+element.appendChild()
+element.cloneNode()
+element.compareDocumentPosition()
+element.focus()
+element.getAttribute()
+element.getAttributeNode()
+element.getElementsByTagName()
+element.getElementsByClassName()
+element.getFeature()
+element.getUserData()
+element.hasAttribute()
+element.hasAttributes()
+element.hasChildNodes()
+element.hasfocus()
+element.insertBefore()
+element.isDefaultNamespace()
+element.isEqualNode()
+element.isSameNode()
+element.isSupported()
+element.normalize()
+element.querySelector()
+document.querySelectorAll()
+element.removeAttribute()
+element.removeAttributeNode()
+element.removeChild()
+element.removeEventListener()
+element.replaceChild()
+element.setAttribute()
+element.setAttributeNode()
+element.setIdAttribute()
+element.setIdAttributeNode()
+element.setUserData()
+element.toString()
+nodelist.item()
 
 
 
-/************************************** HTML 对象 ************************************/
+/************************************** 4. HTML 对象 ************************************/
+
+
+
+
+
+
 
 
 

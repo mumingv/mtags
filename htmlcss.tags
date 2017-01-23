@@ -1,5 +1,40 @@
 /**
- * 所有CSS关键字汇总(http://www.runoob.com/css)
+ * 所有CSS属性汇总 (http://www.runoob.com/cssref/css-reference.html)
+ */
+
+background: <background-color> <background-position> <background-size> <background-repeat> <background-origin> <background-clip> <background-attachment> <background-image>
+background-color: <color> transparent inherit
+background-image: <url('URL')> none inherit
+background-position: [left top] [left center] [left bottom] [right top] [right center] [right bottom] [center top] [center center] [center bottom] [x% y%] [xpos ypos] inherit
+background-repeat: repeat repeat-x repeat-y no-repeat inherit
+border-bottom: <border-bottom-width> <border-bottom-style> <border-bottom-color> inherit
+color: <color_name> <hex_number> <rgb_number> inherit
+display: none block inline(默认) inline-block list-item run-in compact(已删除) marker(已删除) table inline-table table-row-group table-header-group table-footer-group table-row table-column-group table-column table-cell table-caption inherit
+float: left right none inherit
+height: auto <length> % inherit
+line-height: normal <number> <length> % inherit
+list-style: <list-style-type> <list-style-position> <list-style-image> <initial> inherit
+list-style-image: <URL> none inherit
+list-style-position: inside outside inherit
+list-style-type: none disc(默认) circle square decimal decimal-leading-zero lower-roman upper-roman lower-alpha upper-alpha lower-greek lower-latin upper-latin hebrew armenian georgian cjk-ideographic hiragana katakana hiragana-iroha katakana-iroha
+margin-bottom: auto <length> % inherit
+margin-left: auto <length> % inherit
+margin-right: auto <length> % inherit
+margin-top: auto <length> % inherit
+padding: <length> % inherit
+padding-bottom: <length> % inherit
+padding-left: <length> % inherit
+padding-right: <length> % inherit
+padding-top: <length> % inherit
+position: static relative fixed absolute inherit
+text-align: left right center justify inherit
+text-decoration: none underline overline line-through blink inherit
+text-indent: <length> % inherit
+width: auto <length> % inherit
+
+
+/**
+ * 所有CSS关键字汇总 (http://www.runoob.com/css)
  */
 
 /* CSS Border(边框) (http://www.runoob.com/css/css-border.html) */
