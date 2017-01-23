@@ -283,6 +283,33 @@ onload
 
 
 /**
+ * <input-text> 对象 
+ */
+
+/* 属性 */
+autocomplete
+autofocus
+defaultValue
+disabled
+form
+list
+maxLength
+name
+pattern
+placeholder
+readOnly
+required
+size
+type
+value
+
+/* 方法 */
+blur()
+focus()
+select()
+
+
+/**
  * <style> 对象 
  */
 
