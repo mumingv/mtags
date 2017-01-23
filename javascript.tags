@@ -112,7 +112,7 @@ document.createComment()
 document.createDocumentFragment()
 document.createElement()
 document.createTextNode()
-document. getElementsByClassName()
+document.getElementsByClassName()
 document.getElementById()
 document.getElementsByName()
 document.getElementsByTagName()
@@ -126,6 +126,7 @@ document.removeEventListener()
 document.renameNode()
 document.write()
 document.writeln()
+
 
 /**
  * HTML DOM 元素对象
@@ -211,10 +212,29 @@ nodelist.item()
 
 /************************************** 4. HTML 对象 ************************************/
 
+/**
+ * <img> 对象 
+ */
 
+/* 属性 */
+align
+alt
+border
+complete
+height
+hspace
+longDesc
+lowsrc
+name
+src
+useMap
+vspace
+width
 
-
-
+/* 事件 */
+onabort
+onerror
+onload
 
 
 
