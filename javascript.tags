@@ -327,6 +327,194 @@ element.toString()
 nodelist.item()
 
 
+/**
+ * HTML DOM 属性对象 
+ */
+
+
+/**
+ * HTML DOM 事件对象 (事件部分)
+ */
+
+/* 鼠标事件 */
+onclick
+oncontextmenu
+ondblclick
+onmousedown
+onmouseenter
+onmouseleave
+onmousemove
+onmouseover
+onmouseout
+onmouseup
+
+/* 键盘事件 */
+onkeydown
+onkeypress
+onkeyup
+
+/* 框架/对象事件 */
+onabort
+onbeforeunload
+onerror
+onhashchange
+onload
+onpageshow
+onpagehide
+onresize
+onscroll
+onunload
+
+/* 表单事件 */
+onblur
+onchange
+onfocus
+onfocusin
+onfocusout
+oninput
+onreset
+onsearch
+onselect
+onsubmit
+
+/* 剪贴板事件 */
+oncopy
+oncut
+onpaste
+
+/* 打印事件 */
+onafterprint
+onbeforeprint
+
+/* 拖动事件 */
+ondrag
+ondragend
+ondragenter
+ondragleave
+ondragover
+ondragstart
+ondrop
+
+/* 多媒体事件 */
+onabort
+oncanplay
+oncanplaythrough
+ondurationchange
+onemptied
+onended
+onerror
+onloadeddata
+onloadedmetadata
+onloadstart
+onpause
+onplay
+onplaying
+onprogress
+onratechange
+onseeked
+onseeking
+onstalled
+onsuspend
+ontimeupdate
+onvolumechange
+onwaiting
+
+/* 动画事件 */
+animationend
+animationiteration
+animationstart
+
+/* 过渡事件 */
+transitionend
+
+/* 其他事件 */
+onmessage
+onmousewheel  // 废弃
+ononline
+onoffline
+onpopstate
+onshow
+onstorage
+ontoggle
+onwheel
+
+
+/**
+ * HTML DOM 事件对象 (事件对象部分)
+ */
+
+/* 常量 */
+CAPTURING-PHASE
+AT-TARGET
+BUBBLING-PHASE
+
+/* 属性 */
+bubbles
+cancelable
+currentTarget
+eventPhase
+target
+timeStamp
+type
+
+/* 方法 */
+initEvent()
+preventDefault()
+stopPropagation()
+
+
+/**
+ * HTML DOM 事件对象 (目标事件对象部分)
+ */
+
+/* 方法 */
+addEventListener()
+dispatchEvent()
+removeEventListener()
+
+
+/**
+ * HTML DOM 事件对象 (事件监听对象部分)
+ */
+
+/* 方法 */
+handleEvent()
+
+
+/**
+ * HTML DOM 事件对象 (文档事件对象部分)
+ */
+
+/* 方法 */
+createEvent()
+
+
+/**
+ * HTML DOM 事件对象 (鼠标/键盘事件对象部分)
+ */
+
+/* 属性 */
+altKey
+button
+clientX
+clientY
+ctrlKey
+Location
+charCode
+key
+keyCode
+which
+metaKey
+relatedTarget
+screenX
+screenY
+shiftKey
+
+/* 方法 */
+initMouseEvent()
+initKeyboardEvent()
+
+
 /************************************** 4. HTML 对象 ************************************/
 
 /**
@@ -717,4 +905,27 @@ onsubmit
  */
 
 const  // 不建议使用
+
+
+
+
+
+/*******************************************************************************/
+/*                                      jQuery                                 */
+/*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
