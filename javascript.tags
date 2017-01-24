@@ -8,8 +8,58 @@
  */
 
 /* 属性 */
+constructor
+prototype
 
 /* 方法 */
+getDate()
+getDay()
+getFullYear()
+getHours()
+getMilliseconds()
+getMinutes()
+getMonth()
+getSeconds()
+getTime()
+getTimezoneOffset()
+getUTCDate()
+getUTCDay()
+getUTCFullYear()
+getUTCHours()
+getUTCMilliseconds()
+getUTCMinutes()
+getUTCMonth()
+getUTCSeconds()
+getYear()  // 废弃
+parse()
+setDate()
+setFullYear()
+setHours()
+setMilliseconds()
+setMinutes()
+setMonth()
+setSeconds()
+setTime()
+setUTCDate()
+setUTCFullYear()
+setUTCHours()
+setUTCMilliseconds()
+setUTCMinutes()
+setUTCMonth()
+setUTCSeconds()
+setYear()  // 废弃
+toDateString()
+toGMTString()  // 废弃
+toISOString()
+toJSON()
+toLocaleDateString()
+toLocaleTimeString()
+toLocaleString()
+toString()
+toTimeString()
+toUTCString()
+UTC()
+valueOf()
 
 
 /**
@@ -545,4 +595,126 @@ zIndex
 
 
 
+
+# 保留关键字 & 对象、属性和方法名称
+# http://www.runoob.com/js/js-reserved.html
+
+/**
+ * 保留关键字
+ */
+
+abstract
+arguments
+boolean
+break
+byte
+case
+catch
+char
+class*
+const
+continue
+debugger
+default
+delete
+do
+double
+else
+enum*
+eval
+export*
+extends*
+false
+final
+finally
+float
+for
+function
+goto
+if
+implements
+import*
+in
+instanceof
+int
+interface
+let
+long
+native
+new
+null
+package
+private
+protected
+public
+return
+short
+static
+super*
+switch
+synchronized
+this
+throw
+throws
+transient
+true
+try
+typeof
+var
+void
+volatile
+while
+with
+yield
+
+
+/**
+ * 对象、属性和方法名称 
+ */
+
+Array
+Date
+eval
+function
+hasOwnProperty
+Infinity
+isFinite
+isNaN
+isPrototypeOf
+length
+Math
+NaN
+name
+Number
+Object
+prototype
+String
+toString
+undefined
+valueOf
+
+
+/**
+ * HTML事件句柄 
+ */
+
+onblur
+onclick
+onerror
+onfocus
+onkeydown
+onkeypress
+onkeyup
+onmouseover
+onload
+onmouseup
+onmousedown
+onsubmit
+
+
+/**
+ * 非标准Javascript 
+ */
+
+const  // 不建议使用
 
