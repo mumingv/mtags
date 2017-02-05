@@ -132,6 +132,16 @@ sup()
 
 
 /**
+ * RegExp 对象
+ */
+
+/* 方法 */
+compile
+exec
+test
+
+
+/**
  * 全局
  */
 
