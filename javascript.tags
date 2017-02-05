@@ -4,6 +4,31 @@
 /************************************** 1. JavaScript 对象 *********************************/
 
 /**
+ * Array 对象 
+ */
+
+/* 属性 */
+concat()
+every()
+filter()
+indexOf()
+join()
+lastIndexOf()
+map()
+pop()
+push()
+reverse()
+shift()
+slice()
+some()
+sort()
+splice()
+toString()
+unshift()
+valueOf()
+
+
+/**
  * Date 对象 
  */
 
