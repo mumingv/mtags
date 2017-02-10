@@ -483,6 +483,18 @@ Redis::REDIS_HASH - Hash - 5
 // 方法
 
 
+/************************
+ * Baidu ODP 
+ ***********************/
+
+/**
+ * Bd_Conf扩展: http://man.baidu.com:8093/mans/inf/odp/lib/conf/interface/Bd_Conf/Bd_Conf.html
+ */
+
+Bd_Conf::getConf($item, $idc = null);
+Bd_Conf::setConf($item, $value);
+Bd_Conf::getAppConf($item = null, $app = null);
+Bd_Conf::getMyConf($item = null, $app = null);
 
 
 
