@@ -480,7 +480,26 @@ return: 正常返回匹配次数(0、1、2...)；异常返回false。
 [preg_replace]
 mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
 
+[preg_replace_callback]
+mixed preg_replace_callback ( mixed $pattern , callable $callback , mixed $subject [, int $limit = -1 [, int &$count ]] )
 
+[preg_replace_callback_array]
+mixed preg_replace_callback_array ( array $patterns_and_callbacks , mixed $subject [, int $limit = -1 [, int &$count ]] )
+
+[preg_filter]
+mixed preg_filter ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
+
+[preg_split]
+array preg_split ( string $pattern , string $subject [, int $limit = -1 [, int $flags = 0 ]] )
+
+[preg_grep]
+array preg_grep ( string $pattern , array $input [, int $flags = 0 ] )
+
+[preg_quote]
+string preg_quote ( string $str [, string $delimiter = NULL ] )
+
+[preg_last_error]
+int preg_last_error ( void )
 
 
 /************************
