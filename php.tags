@@ -460,6 +460,29 @@ JSON_UNESCAPED_SLASHES
 JSON_UNESCAPED_UNICODE 
 
 
+/**
+ * 文本处理
+ */
+
+// PCRE
+// http://php.net/manual/zh/ref.pcre.php
+
+[preg_match]
+int preg_match ( string $pattern , string $subject [, array &$matches [, int $flags = 0 [, int $offset = 0 ]]] )
+flags: PREG_OFFSET_CAPTURE
+return: 正常返回匹配次数(0或1)；异常返回false。
+
+[preg_match_all]
+int preg_match_all ( string $pattern , string $subject [, array &$matches [, int $flags = PREG_PATTERN_ORDER [, int $offset = 0 ]]] )
+flags: PREG_PATTERN_ORDER(1), PREG_SET_ORDER(2), PREG_OFFSET_CAPTURE(256)
+return: 正常返回匹配次数(0、1、2...)；异常返回false。
+
+[preg_replace]
+mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
+
+
+
+
 /************************
  * phpredis扩展
  ***********************/
