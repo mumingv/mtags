@@ -1,4 +1,8 @@
 
+/************************
+ *      PHP语法
+ ***********************/
+
 /**
  * 保留字列表
  * http://php.net/manual/zh/reserved.php
@@ -7,17 +11,18 @@
 // 关键词列表
 // http://php.net/manual/zh/reserved.keywords.php
 
+/* PHP关键字 */
+__halt_compiler()
+abstract
 and
-or
-xor
-__FILE__
-exception
-__LINE__
 array()
 as
 break
+callable
 case
+catch
 class
+clone
 const
 continue
 declare
@@ -37,44 +42,55 @@ endwhile
 eval()
 exit()
 extends
+final
+finally
 for
 foreach
 function
 global
+goto
 if
+implements
 include
 include_once
+instanceof
+insteadof
+interface
 isset()
 list()
+namespace
 new
+or
 print
+private
+protected
+public
 require
 require_once
 return
 static
 switch
+throw
+trait
+try
 unset()
 use
 var
 while
-__FUNCTION__
+xor
+yield
+
+/* 编译时常量 */
+
 __CLASS__
+__DIR__
+__FILE__
+__FUNCTION__
+__LINE__
 __METHOD__
-final
-php_user_filter
-interface
-implements
-extends
-public
-private
-protected
-abstract
-clone
-try
-catch
-throw
-cfunction
-this
+__NAMESPACE__
+__TRAIT__
+
 
 // 预定义类
 // http://php.net/manual/zh/reserved.classes.php
@@ -526,7 +542,7 @@ Redis::REDIS_HASH - Hash - 5
 
 
 /************************
- * Baidu ODP 
+ *      Baidu ODP 
  ***********************/
 
 /**
@@ -539,20 +555,8 @@ Bd_Conf::getAppConf($item = null, $app = null);
 Bd_Conf::getMyConf($item = null, $app = null);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************************
+ *      ThinkPHP
+ ***********************/
 
 
