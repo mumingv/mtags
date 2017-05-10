@@ -375,8 +375,13 @@ str_getcsv
 str_ireplace
 str_pad
 str_repeat
-str_replace
-str_rot13
+
+[str_replace]
+mixed str_replace ( mixed $search , mixed $replace , mixed $subject [, int &$count ] )
+subject: 可以是字符串或者数组
+return: 替换后的字符串或者数组
+
+str_rot1
 str_shuffle
 str_split
 str_word_count
@@ -409,7 +414,12 @@ strtoupper
 strtr
 substr_compare
 substr_count
-substr_replace
+
+[substr_replace]
+mixed substr_replace ( mixed $string , mixed $replacement , mixed $start [, mixed $length ] )
+return: 替换后的字符串或数组
+说明：和str_replace的区别是，该函数时根据位置和长度进行替换。
+
 substr
 trim
 ucfirst
