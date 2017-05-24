@@ -543,7 +543,10 @@ int preg_last_error ( void )
 [curl_errno]
 [curl_error]
 [curl_escape]
+
 [curl_exec]
+mixed curl_exec ( resource $ch )
+
 [curl_file_create]
 [curl_getinfo]
 [curl_init]
@@ -560,7 +563,10 @@ int preg_last_error ( void )
 [curl_pause]
 [curl_reset]
 [curl_setopt_array]
+
 [curl_setopt]
+bool curl_setopt ( resource $ch , int $option , mixed $value )
+
 [curl_share_close]
 [curl_share_init]
 [curl_share_setopt]
@@ -569,7 +575,11 @@ int preg_last_error ( void )
 [curl_version]
 
 // cURL预定义常量
-CURLOPT_FILE
+// bool类型
+CURLOPT_HEADER  // 是否将头文件的信息作为数据流输出
+CURLOPT_RETURNTRANSFER  // 是否将curl_exec()获取的信息以字符串返回，而不是直接输出
+// 流资源
+CURLOPT_FILE  // 指定结果存入的文件名称
 
 
 /************************
