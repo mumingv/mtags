@@ -1,83 +1,135 @@
-# +---------------------------+--------------------------------------------+
-#   内建函数                    含义
-# +---------------------------+--------------------------------------------+
-#   abs()                       
-#   all()
-#   any()
-#   basestring()
-#   bin()
-#   bool()
-#   bytearray()
-#   callable()
-#   chr()
-#   classmethod()
-#   cmp()
-#   compile()
-#   complex()
-#   delattr()
-#   dict()
-#   dir()
-#   divmod()
-#   enumerate()
-#   eval()
-#   execfile()
-#   file()
-#   filter()
-#   float()
-#   format()
-#   frozenset()
-#   getattr()
-#   globals()
-#   hasattr()
-#   hash()
-#   help()
-#   hex()
-#   id()
-#   input()
-#   int()
-#   isinstance()
-#   issubclass()
-#   iter()
-#   len()
-#   list()
-#   locals()
-#   long()
-#   map()
-#   max()
-#   memoryview()
-#   min()
-#   next()
-#   object()
-#   oct()
-#   open()
-#   ord()
-#   pow()
-#   print()
-#   property()
-#   range()
-#   raw_input()
-#   reduce()
-#   reload()
-#   repr()
-#   reversed()
-#   round()
-#   set()
-#   setattr()
-#   slice()
-#   sorted()                    排序(针对列表/字典等数据结构)
-#   staticmethod()
-#   str()
-#   sum()
-#   super()
-#   tuple()
-#   type()
-#   unichr()
-#   unicode()
-#   vars()
-#   xrange()
-#   zip()
-#   __import__()
+
+/************************
+ * 函数列表
+ ***********************/
 
 
+
++---------------------------+--------------------------------------------+
+  内建函数                    含义
++---------------------------+--------------------------------------------+
+  abs()                       
+  all()
+  any()
+  basestring()
+  bin()
+  bool()
+  bytearray()
+  callable()
+  chr()
+  classmethod()
+  cmp()
+  compile()
+  complex()
+  delattr()
+  dict()
+  dir()
+  divmod()
+  enumerate()
+  eval()
+  execfile()
+  file()
+  filter()
+  float()
+  format()
+  frozenset()
+  getattr()
+  globals()
+  hasattr()
+  hash()
+  help()
+  hex()
+  id()
+  input()
+  int()
+  isinstance()
+  issubclass()
+  iter()
+  len()
+  list()
+  locals()
+  long()
+  map()
+  max()
+  memoryview()
+  min()
+  next()
+  object()
+  oct()
+  open()
+  ord()
+  pow()
+  print()
+  property()
+  range()
+  raw_input()
+  reduce()
+  reload()
+  repr()
+  reversed()
+  round()
+  set()
+  setattr()
+  slice()
+  sorted()                    排序(针对列表/字典等数据结构)
+  staticmethod()
+  str()
+  sum()
+  super()
+  tuple()
+  type()
+  unichr()
+  unicode()
+  vars()
+  xrange()
+  zip()
+  __import__()
+
+
+/**
+ * 17.进程间通信及网络访问
+ */
+
+// 17.2. socket — 底层网络接口
+
+/* socket模块函数 */
+
+[socket.socket]
+socket.socket([family[, type[, proto]]])
+family: AF_INET, AF_INET6, AF_UNIX
+type: SOCK_STREAM, SOCK_DGRAM
+
+[socket.gethostname]
+socket.gethostname()
+
+/* socket对象方法 */
+
+[socket.accetp]
+socket.accept()
+return: (conn, address), conn为一个新的socket对象，address为客户端的address(即：主机名和端口号)
+
+[socket.bind]
+socket.bind(address)
+address: 元组: (host, port)
+
+[socket.close]
+socket.close()
+
+[socket.connect]
+socket.connect(address)
+address: 元组: (host, port)
+
+[socket.listen]
+socket.listen(backlog)
+backlog: 排队连接的最大数量, 取值范围: [0-MAX], MAX由操作系统控制
+
+[socket.recv]
+socket.recv(bufsize[, flags])
+bufsize: 缓存大小，即：一次能够接收的最大数据量
+flags: 默认值为0
+
+[socket.send]
+socket.send(string[, flags])
+return: 发送的数据字节数
 
 
