@@ -550,19 +550,32 @@ mixed curl_exec ( resource $ch )
 [curl_file_create]
 [curl_getinfo]
 [curl_init]
+
 [curl_multi_add_handle]
+int curl_multi_add_handle ( resource $mh , resource $ch )
+
 [curl_multi_close]
+void curl_multi_close ( resource $mh )
+
 [curl_multi_exec]
+
 [curl_multi_getcontent]
+string curl_multi_getcontent ( resource $ch )
+
 [curl_multi_info_read]
 [curl_multi_init]
+
 [curl_multi_remove_handle]
+int curl_multi_remove_handle ( resource $mh , resource $ch )
+
 [curl_multi_select]
 [curl_multi_setopt]
 [curl_multi_strerror]
 [curl_pause]
 [curl_reset]
+
 [curl_setopt_array]
+bool curl_setopt_array ( resource $ch , array $options )
 
 [curl_setopt]
 bool curl_setopt ( resource $ch , int $option , mixed $value )
@@ -578,6 +591,11 @@ bool curl_setopt ( resource $ch , int $option , mixed $value )
 // bool类型
 CURLOPT_HEADER  // 是否将头文件的信息作为数据流输出
 CURLOPT_RETURNTRANSFER  // 是否将curl_exec()获取的信息以字符串返回，而不是直接输出
+// 整数
+CURLOPT_TIMEOUT  // 设置秒级超时
+CURLOPT_TIMEOUT_MS  // 设置毫秒级超时
+// 字符串
+CURLOPT_URL  // 需要获取的 URL 地址
 // 流资源
 CURLOPT_FILE  // 指定结果存入的文件名称
 
