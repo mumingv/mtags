@@ -149,6 +149,8 @@ __COMPILER_HALT_OFFSET__
  * 文件系统相关扩展
  */
 
+// 
+
 // Filesystem 文件系统
 // http://php.net/manual/zh/ref.filesystem.php
 basename
@@ -262,7 +264,11 @@ array_merge_recursive
 array_merge
 array_multisort     SORT_ASC/SORT_DESC      SORT_REGULAR/SORT_NUMERIC/SORT_STRING 
 array_pad
-array_pop
+
+[array_pop]
+mixed array_pop ( array &$array )
+return: 
+
 array_product
 array_push
 array_rand
@@ -346,7 +352,11 @@ html_entity_decode
 htmlentities
 htmlspecialchars_decode
 htmlspecialchars
-implode
+
+[implode]
+string implode ( string $glue , array $pieces )
+string implode ( array $pieces )
+
 join
 lcfirst
 levenshtein
@@ -372,7 +382,10 @@ sha1_file
 sha1
 similar_text
 soundex
-sprintf
+
+[sprintf]
+string sprintf ( string $format [, mixed $args [, mixed $... ]] )
+
 sscanf
 str_getcsv
 str_ireplace
@@ -429,7 +442,10 @@ ucfirst
 ucwords
 vfprintf
 vprintf
-vsprintf
+
+[vsprintf]
+string vsprintf ( string $format , array $args )
+
 wordwrap
 
 
