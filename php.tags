@@ -143,14 +143,30 @@ __COMPILER_HALT_OFFSET__
 
 
 /************************
- * 函数列表
+ * 函数参考
  ***********************/
 
 /**
  * 文件系统相关扩展
  */
 
-// 
+/** dir 目录 **/
+
+// http://php.net/manual/zh/dir.constants.php
+DIRECTORY_SEPARATOR     符号: /
+PATH_SEPARATOR          符号: :
+
+// http://php.net/manual/zh/ref.dir.php
+chdir
+chroot
+closedir
+dir
+getcwd
+opendir
+readdir
+rewinddir
+scandir
+
 
 // Filesystem 文件系统
 // http://php.net/manual/zh/ref.filesystem.php
